@@ -1,9 +1,7 @@
-
 import Sidebar from "../components/Sidebar";
 import AppNavbar from './../components/AppNavbar';
 const Main = ({children}) => {
     return (<>
-   
     <AppNavbar/>
     <div className="d-flex">
     <Sidebar/>
